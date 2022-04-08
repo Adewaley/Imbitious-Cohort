@@ -8,5 +8,6 @@ class Solution {
         }// [16, 1, 0, 9, 100] --> [0, 1, 9, 16, 100]
         Arrays.sort(output);
         return output;
-    }
+    }// time: O(nlogn)
+    // space: O(n)
 }
